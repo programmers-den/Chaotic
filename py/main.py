@@ -2,6 +2,7 @@ import asyncio, discord, websockets, json, os
 from threading import Thread
 from discord.ext import commands
 
+data = 524288464422830095, 300126997718237195, 207188318130012160
 prefix = os.environ.get("PREFIX")
 token = os.environ.get("TOKEN")
 bot = commands.AutoShardedBot(command_prefix=prefix, case_insensitive=True)
