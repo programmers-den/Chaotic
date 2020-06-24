@@ -1,2 +1,6 @@
+# environments
 .env
 js/node_modules/
+
+# vscode
+.vscode
