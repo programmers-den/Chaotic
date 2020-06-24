@@ -14,3 +14,5 @@ for command in os.listdir("commands"):
     if command.endswith('.py'):
         with open(f"commands/{command}") as f:
             exec(f.read())
+
+bot.run(token)
