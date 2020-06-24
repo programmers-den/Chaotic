@@ -1,7 +1,7 @@
 #!/bin/bash
 while :
 do
-  ./stop.sh
+  bash stop.sh
   if [ -f .env ]
   then
     export $(cat .env | sed 's/#.*//g' | xargs)
