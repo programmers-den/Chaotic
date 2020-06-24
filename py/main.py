@@ -15,7 +15,7 @@ async def connect():
 
 @bot.listen()
 async def on_ready():
-    print("Python: Ready!")
+    print("PY: Ready!")
 
 for command in os.listdir("commands"):
     if command.endswith('.py'):
