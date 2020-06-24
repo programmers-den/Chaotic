@@ -4,5 +4,5 @@
 	- [x] JavaScript
 	- [x] CoffeeScript
 	- [x] TypeScript
-	- [] Nim
-	- [] Ruby
+	- [ ] Nim
+	- [ ] Ruby
