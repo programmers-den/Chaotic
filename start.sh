@@ -10,9 +10,10 @@ do
 
   git pull
   cd js
-  bash -c "exec -a chaotic-js ./node_modules/coffeescript/bin/coffee index.coffee"
+  bash -c "exec -a chaotic-js ./node_modules/coffeescript/bin/coffee index.coffee" &
   cd ../py
-  bash -c "exec -a chaotic-py python3 main.py"
+  bash -c "exec -a chaotic-py python3 main.py" &
   cd ../
+  echo "Waiting an hour before automatically restarting..."
   sleep 3600
 done
