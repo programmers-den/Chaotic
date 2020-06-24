@@ -7,7 +7,13 @@ token = os.environ.get("TOKEN")
 bot = commands.AutoShardedBot(command_prefix=prefix, case_insensitive=True)
 
 async def connect():
-    ws = websockets.connect("ws://127.0.0.1:9010")
+    while True:
+        try:
+            ws = await websockets.connect("ws://127.0.0.1:9010")
+            print("PY: Connected to socket")
+            break
+        except OSError:
+            pass
     while True:
         msg = json.loads(await ws.recv())
         if "py" in msg["recipients"]:
