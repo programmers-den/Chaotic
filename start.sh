@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/bash
 while :
 do
-  pkill -f chaotic-js
+  ./stop.sh
   if [ -f .env ]
   then
     export $(cat .env | sed 's/#.*//g' | xargs)
@@ -9,6 +9,8 @@ do
 
   git pull
   cd js
-  bash -c "exec -a chaotic-js ./node_modules/coffeescript/bin/coffee index.coffee"
-  sleep 3600
+  bash -c "exec -a chaotic-js ./node_modules/coffeescript/bin/coffee index.coffee" &
+  cd ../py
+  bash -c "exec -a chaotic-py python3 main.py"
+  cd ../
 done
