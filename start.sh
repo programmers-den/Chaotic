@@ -14,6 +14,7 @@ do
   cd ../py
   bash -c "exec -a chaotic-py python3 main.py" &
   cd ../
+  sleep 15
   echo "Waiting an hour before automatically restarting..."
   sleep 3600
 done
