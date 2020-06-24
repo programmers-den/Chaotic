@@ -1,8 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/bash
 while :
 do
-  pkill -f chaotic-js
-  pkill -f chaotic-py
+  ./stop.sh
   if [ -f .env ]
   then
     export $(cat .env | sed 's/#.*//g' | xargs)
@@ -12,9 +11,6 @@ do
   cd js
   bash -c "exec -a chaotic-js ./node_modules/coffeescript/bin/coffee index.coffee" &
   cd ../py
-  bash -c "exec -a chaotic-py python3 main.py" &
+  bash -c "exec -a chaotic-py python3 main.py"
   cd ../
-  sleep 15
-  echo "Waiting an hour before automatically restarting..."
-  sleep 3600
 done
