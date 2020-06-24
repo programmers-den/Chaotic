@@ -6,7 +6,7 @@ prefix = os.environ.get("PREFIX")
 token = os.environ.get("TOKEN")
 bot = commands.AutoShardedBot(command_prefix=prefix, case_insensitive=True)
 
-@bot.event
+@bot.listen()
 async def on_ready():
     print("Python: Ready!")
 
