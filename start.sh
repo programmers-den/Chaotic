@@ -1,7 +1,8 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 if [ -f .env ]
 then
   export $(cat .env | sed 's/#.*//g' | xargs)
 fi
 
-alias coffee=./js/node_modules/coffeescript/bin/coffee
+cd js
+./node_modules/coffeescript/bin/coffee index.coffee
