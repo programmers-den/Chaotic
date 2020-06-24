@@ -1,5 +1,6 @@
 Discord = require 'discord.js'
 fs = require 'fs'
+path = require 'path'
 
 wss = new (require('ws').Server)(port: 9010, host: '127.0.0.1')
 client = new Discord.Client()
@@ -7,7 +8,7 @@ client.commands = new Discord.Collection()
 prefix = process.env.PREFIX
 token = process.env.TOKEN
 commandFiles = fs.readdirSync('./commands').filter((file) ->
-  file.endsWith '.js' or '.coffee'
+  ['.coffee', '.js'].includes(path.extname file)
 )
 
 wss.on 'listening', () ->
