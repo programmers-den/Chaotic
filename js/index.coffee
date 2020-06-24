@@ -23,6 +23,8 @@ for file in commandFiles
   command = require "./commands/#{file}"
   client.commands.set(command.name, command)
 
+console.log client.commands
+
 client.once 'ready', ->
   console.log 'JS: Ready!'
 
