@@ -24,7 +24,7 @@ async def on_ready():
     print("PY: Ready!")
 
 for command in os.listdir("commands"):
-    if command.endswith('.py'):
+    if command.endswith(".py"):
         with open(f"commands/{command}") as f:
             exec(f.read())
 
