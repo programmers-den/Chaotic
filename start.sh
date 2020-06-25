@@ -5,8 +5,7 @@ cd ../py
 python3 -m pip install -r requirements.txt
 cd ../
 
-while :
-do
+while :; do
   ./stop.sh
   if [ -f .env ]
   then

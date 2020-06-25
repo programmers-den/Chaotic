@@ -12,8 +12,7 @@ async def connect():
             ws = await websockets.connect("ws://127.0.0.1:9010")
             print("PY: Connected to socket")
             break
-        except OSError:
-            pass
+        except OSError: pass
     while True:
         msg = json.loads(await ws.recv())
         if "py" in msg["recipients"]:

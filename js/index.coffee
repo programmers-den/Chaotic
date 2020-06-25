@@ -8,17 +8,15 @@ client.commands = new Discord.Collection()
 prefix = process.env.PREFIX
 token = process.env.TOKEN
 commandFiles = fs.readdirSync('./commands').filter((file) ->
-  ['.coffee', '.js'].includes(path.extname file)
+  ['.coffee', '.js'].includes(path.extname(file))
 )
 
-wss.on 'listening', () ->
-  console.log "WSS: Ready!"
+wss.on 'listening', -> console.log "WSS: Ready!"
 
 wss.on 'connection', (ws) ->
   ws.on 'message', (data) ->
     wss.clients.forEach (client) ->
-      if client.readyState == WebSocket.OPEN
-        client.send data
+      client.send(data) if client.readyState == WebSocket.OPEN
 
 for file in commandFiles
   command = require "./commands/#{file}"
@@ -26,17 +24,14 @@ for file in commandFiles
 
 console.log client.commands
 
-client.once 'ready', ->
-  console.log 'JS: Ready!'
+client.once 'ready', -> console.log 'JS: Ready!'
 
 client.on 'message', (message) ->
-  if !message.content.startsWith(prefix) or message.author.bot
-    return
+  return if !message.content.startsWith(prefix) or message.author.bot
 
-  args = message.content.slice(prefix.length).split(RegExp(' +'))
+  args = message.content.slice(prefix.length).split(RegExp(' +')) # todo: migrate to modern slash-based syntax later
   command = args.shift().toLowerCase()
 
-  if command == 'test'
-    client.commands.get('test').execute(message, args)
+  client.commands.get('test').execute(message, args) if command == 'test' # todo: automate with for loop
 
-client.login token
+client.login(token)
