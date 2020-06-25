@@ -1,4 +1,10 @@
 #!/bin/bash
+cd js/
+npm install
+cd ../py
+python3 -m pip install -r requirements.txt
+cd ../
+
 while :
 do
   ./stop.sh
