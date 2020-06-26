@@ -20,8 +20,8 @@ async def connect():
             if msg["data"] == "cmdlist":
                 cmds = {}
                 for cmd in bot.commands:
-                    print("PY: "+cmd)
-                    cmds[cmd] = bot.commands[cmd]["description"]
+                    print("PY: "+str(cmd))
+                    cmds[cmd] = bot.commands[str(cmd)]["description"]
                 await ws.send(json.dumps({
                     "recipients":[msg["sender"]],
                     "sender":"py",
