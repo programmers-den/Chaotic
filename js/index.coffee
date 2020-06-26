@@ -22,7 +22,7 @@ wss.on 'connection', (ws) ->
         data = {"recipients":[JSON.parse(ws.data).sender], "sender":"js", "data":"key registered", "id":JSON.parse(ws.data).id}
         ws.send(JSON.stringify(data))
       else if JSON.parse(ws.data).data == "unregisterid"
-        delete usedIDs[JSON.parse(ws.data).id.toString()]]
+        delete usedIDs[JSON.parse(ws.data).id.toString()]
         data = {"recipients":[JSON.parse(ws.data).sender], "sender":"js", "data":"", "id":JSON.parse(ws.data).id}
         ws.send(JSON.stringify(data))
     wss.clients.forEach (client) ->
