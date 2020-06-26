@@ -6,5 +6,5 @@ async def update(ctx):
         await ctx.send("Request Received, Rebooting...")
         try:
             os.system("bash ../stop.sh")
-        except:
-            await ctx.send("ERR")
+        except Exception as e:
+            await ctx.send("```\n{}```".format(str(e)))
