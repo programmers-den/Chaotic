@@ -76,7 +76,7 @@ client.on 'message', (message) ->
     for cmd in pycmds
       cmds = "#{cmds}#{cmd}: #{pycmds[cmd].description}"
     for cmd in client.commands
-      console.log cmd
+      console.log 
 
   client.commands.get('test').execute(message, args) if command == 'test' # todo: automate with for loop
 
