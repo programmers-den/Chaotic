@@ -14,12 +14,17 @@ commandFiles = fs.readdirSync('./commands').filter((file) ->
 wss.on 'listening', -> console.log "WSS: Ready!"
 
 usedIDs = {}
+dataWaitingRoom = {}
 wss.on 'connection', (ws) ->
   ws.on 'message', (data) ->
     if 'js' in JSON.parse(ws.data).recipients.indexOf("recipients")
       if JSON.parse(ws.data).data == "registerid"
-        usedIDs[JSON.parse(ws.data).id.toString()] = JSON.parse(ws.data).sender
-        data = {"recipients":[JSON.parse(ws.data).sender], "sender":"js", "data":"id registered", "id":JSON.parse(ws.data).id}
+        if JSON.parse(ws.data).id.toString() not in usedIDs
+          usedIDs[JSON.parse(ws.data).id.toString()] = JSON.parse(ws.data).sender
+          text = "id registered"
+        else
+          text = "id not registered"
+        data = {"recipients":[JSON.parse(ws.data).sender], "sender":"js", "data":text, "id":JSON.parse(ws.data).id}
         ws.send(JSON.stringify(data))
       else if JSON.parse(ws.data).data == "unregisterid"
         delete usedIDs[JSON.parse(ws.data).id.toString()]
@@ -47,6 +52,12 @@ client.on 'message', (message) ->
   command = args.shift().toLowerCase()
 
   if command == "help"
+    while true
+      id = Math.floor(Math.random() * (9999999999 - 0) + 0)
+      if id not in usedIDs
+        break
+    ws.send(JSON.stringify({"recipients":["py"], "sender":"js", "data":text, "id":}))
+    usedIDs[id.toString()] = "js"
     
 
   client.commands.get('test').execute(message, args) if command == 'test' # todo: automate with for loop
