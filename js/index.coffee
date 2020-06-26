@@ -13,10 +13,21 @@ commandFiles = fs.readdirSync('./commands').filter((file) ->
 
 wss.on 'listening', -> console.log "WSS: Ready!"
 
+usedIDs = {}
 wss.on 'connection', (ws) ->
   ws.on 'message', (data) ->
+    if 'js' in JSON.parse(ws.data).recipients.indexOf("recipients")
+      if JSON.parse(ws.data).data == "registerid"
+        usedIDs[JSON.parse(ws.data).id.toString()] = JSON.parse(ws.data).sender
+        data = {"recipients":[JSON.parse(ws.data).sender], "sender":"js", "data":"key registered", "id":JSON.parse(ws.data).id}
+        ws.send(JSON.stringify(data))
+      else if JSON.parse(ws.data).data == "unregisterid"
+        delete usedIDs[JSON.parse(ws.data).id.toString()]]
+        data = {"recipients":[JSON.parse(ws.data).sender], "sender":"js", "data":"", "id":JSON.parse(ws.data).id}
+        ws.send(JSON.stringify(data))
     wss.clients.forEach (client) ->
-      client.send(data) if client.readyState == WebSocket.OPEN
+    if client.readyState == WebSocket.OPEN
+      client.send data
 
 for file in commandFiles
   command = require "./commands/#{file}"
