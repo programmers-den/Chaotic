@@ -1,8 +1,9 @@
+WebSocket = require 'ws'
 Discord = require 'discord.js'
 fs = require 'fs'
 path = require 'path'
 pass = () -> # pass func, this is all it needs
-wss = new (require('ws').Server)(port: 9010, host: '127.0.0.1')
+wss = new (WebSocket.Server)(port: 9010, host: '127.0.0.1')
 client = new Discord.Client()
 client.commands = new Discord.Collection()
 prefix = process.env.PREFIX
