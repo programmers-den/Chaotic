@@ -22,24 +22,24 @@ async def connect():
                 for cmd in bot.commands:
                     cmds[cmd] = bot.commands[cmd]["description"]
                 await ws.send(json.dumps({
-                  "recipients":[msg["sender"]],
-                  "sender":"py",
-                  "data":cmds,
-                  "id":msg["id"]
+                    "recipients":[msg["sender"]],
+                    "sender":"py",
+                    "data":cmds,
+                    "id":msg["id"]
                 }))
             elif msg["data"] == "eval":
                 await ws.send(json.dumps({
-                  "recipients":[msg["sender"]],
-                  "sender":"py",
-                  "data":eval(msg["data"]),
-                  "id":msg["id"]
+                    "recipients":[msg["sender"]],
+                    "sender":"py",
+                    "data":eval(msg["data"]),
+                    "id":msg["id"]
                 }))
             else:
                 await ws.send(json.dumps({
-                  "recipients":[msg["sender"]],
-                  "sender":"py",
-                  "data":"Not a valid command",
-                  "id":msg["id"]
+                    "recipients":[msg["sender"]],
+                    "sender":"py",
+                    "data":"Not a valid command",
+                    "id":msg["id"]
                 }))
 
 @bot.listen()
