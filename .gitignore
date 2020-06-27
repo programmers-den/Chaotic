@@ -5,6 +5,9 @@ js/node_modules/
 # vscode
 .vscode
 
+# vs
+.vs
+
 # cpp
 cpp/lib/
 cpp/out/
