@@ -4,3 +4,8 @@ js/node_modules/
 
 # vscode
 .vscode
+
+# cpp
+cpp/lib
+cpp/out
+cpp/.vs
