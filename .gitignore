@@ -9,6 +9,4 @@ js/node_modules/
 .vs
 
 # cpp
-cpp/lib/
-cpp/out/
 cpp/.vs
