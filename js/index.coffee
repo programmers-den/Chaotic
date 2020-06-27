@@ -42,7 +42,8 @@ wss.on 'connection', (ws) ->
         data = {"recipients":[wsjsondata.sender], "sender":"js", "data":JSON.stringify(Object.keys(usedIDs)), "id":wsjsondata.id}
         ws.send(JSON.stringify(data))
     wss.clients.forEach (client) ->
-      client.send(data) if client.readyState == WebSocket.OPEN
+    if client.readyState == WebSocket.OPEN
+      client.send data
 
 
 for file in commandFiles

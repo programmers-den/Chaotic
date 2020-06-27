@@ -4,3 +4,12 @@ js/node_modules/
 
 # vscode
 .vscode
+
+# vs
+.vs
+
+# cpp lang file
+cpp/.vs
+cpp/lib/ #Because it's a folder
+cpp/out/
+cpp/build/
