@@ -10,3 +10,6 @@ js/node_modules/
 
 # cpp lang file
 cpp/.vs
+cpp/lib
+cpp/out
+cpp/build
