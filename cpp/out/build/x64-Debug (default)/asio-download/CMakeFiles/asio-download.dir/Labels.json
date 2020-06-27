@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/CMakeFiles/asio-download"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/CMakeFiles/asio-download.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/CMakeFiles/asio-download-complete.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-install.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-download.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-patch.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-configure.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-build.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-test.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-skip-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"asio-download"
+		],
+		"name" : "asio-download"
+	}
+}

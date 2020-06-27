@@ -1,0 +1,14 @@
+# Target labels
+ asio-download
+# Source files and their labels
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/CMakeFiles/asio-download
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/CMakeFiles/asio-download.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/CMakeFiles/asio-download-complete.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-install.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-mkdir.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-download.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-patch.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-configure.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-build.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-test.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-skip-update.rule

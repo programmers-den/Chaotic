@@ -1,0 +1,25 @@
+# ninja log v5
+0	330	614949633	cpr-download-prefix/src/cpr-download-stamp/cpr-download-mkdir	dca4167820d0e81f
+330	55020	614949687	cpr-download-prefix/src/cpr-download-stamp/cpr-download-download	3a5c9617e6cc003
+55028	55087	0	cpr-download-prefix/src/cpr-download-stamp/cpr-download-skip-update	56b0b881a91ff905
+55020	55121	614949687	cpr-download-prefix/src/cpr-download-stamp/cpr-download-patch	b7589c5c42fb9846
+55121	55215	614949688	cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure	73517e060af5e457
+55215	55313	614949688	cpr-download-prefix/src/cpr-download-stamp/cpr-download-build	25b2dab6c3d13ac1
+55313	55406	614949688	cpr-download-prefix/src/cpr-download-stamp/cpr-download-install	71984c1d0a7171b1
+55406	55499	614949688	cpr-download-prefix/src/cpr-download-stamp/cpr-download-test	dc9426d1e1336357
+55500	55635	614949688	CMakeFiles/cpr-download-complete	cffd3a59be34e9c2
+55500	55635	614949688	cpr-download-prefix/src/cpr-download-stamp/cpr-download-done	cffd3a59be34e9c2
+0	61	0	cpr-download-prefix/src/cpr-download-stamp/cpr-download-skip-update	56b0b881a91ff905
+61	148	614950583	cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure	73517e060af5e457
+148	236	614950583	cpr-download-prefix/src/cpr-download-stamp/cpr-download-build	25b2dab6c3d13ac1
+236	322	614950583	cpr-download-prefix/src/cpr-download-stamp/cpr-download-install	71984c1d0a7171b1
+322	408	614950583	cpr-download-prefix/src/cpr-download-stamp/cpr-download-test	dc9426d1e1336357
+408	524	614950583	CMakeFiles/cpr-download-complete	cffd3a59be34e9c2
+408	524	614950583	cpr-download-prefix/src/cpr-download-stamp/cpr-download-done	cffd3a59be34e9c2
+1	65	0	cpr-download-prefix/src/cpr-download-stamp/cpr-download-skip-update	56b0b881a91ff905
+65	173	614950712	cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure	73517e060af5e457
+173	281	614950713	cpr-download-prefix/src/cpr-download-stamp/cpr-download-build	25b2dab6c3d13ac1
+282	389	614950713	cpr-download-prefix/src/cpr-download-stamp/cpr-download-install	71984c1d0a7171b1
+390	482	614950713	cpr-download-prefix/src/cpr-download-stamp/cpr-download-test	dc9426d1e1336357
+482	620	614950713	CMakeFiles/cpr-download-complete	cffd3a59be34e9c2
+482	620	614950713	cpr-download-prefix/src/cpr-download-stamp/cpr-download-done	cffd3a59be34e9c2

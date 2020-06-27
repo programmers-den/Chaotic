@@ -1,0 +1,14 @@
+# Target labels
+ cpr-download
+# Source files and their labels
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/CMakeFiles/cpr-download
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/CMakeFiles/cpr-download.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/CMakeFiles/cpr-download-complete.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-install.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-mkdir.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-download.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-patch.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-build.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-test.rule
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-skip-update.rule

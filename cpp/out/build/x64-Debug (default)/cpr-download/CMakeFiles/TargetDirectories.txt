@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/CMakeFiles/cpr-download.dir
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/cpr-download/CMakeFiles/rebuild_cache.dir

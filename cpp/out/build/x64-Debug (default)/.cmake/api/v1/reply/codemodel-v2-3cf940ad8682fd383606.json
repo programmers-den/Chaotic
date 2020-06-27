@@ -1,0 +1,292 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lib/sleepy-discord",
+					"childIndexes" : 
+					[
+						2,
+						7,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/sleepy-discord"
+				},
+				{
+					"build" : "lib/sleepy-discord/deps/cpr",
+					"childIndexes" : 
+					[
+						3,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "lib/sleepy-discord/deps/cpr"
+				},
+				{
+					"build" : "lib/sleepy-discord/deps/cpr/opt",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "lib/sleepy-discord/deps/cpr/opt"
+				},
+				{
+					"build" : "lib/sleepy-discord/deps/cpr/opt/curl",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "lib/sleepy-discord/deps/cpr/opt/curl",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "lib/sleepy-discord/deps/cpr/opt/curl/lib",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "lib/sleepy-discord/deps/cpr/opt/curl/lib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lib/sleepy-discord/deps/cpr/cpr",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "lib/sleepy-discord/deps/cpr/cpr",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "lib/sleepy-discord/deps/websocketpp",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "lib/sleepy-discord/deps/websocketpp"
+				},
+				{
+					"build" : "lib/sleepy-discord/deps/websocketpp/websocketpp",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "lib/sleepy-discord/deps/websocketpp/websocketpp"
+				},
+				{
+					"build" : "lib/sleepy-discord/sleepy_discord",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/sleepy-discord/sleepy_discord",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						9
+					],
+					"name" : "sleepy-discord",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						6
+					],
+					"name" : "cpr",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "CURL",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "websocketpp",
+					"parentIndex" : 1
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp-Debug-8d821a8b44432f0ad76e.json",
+					"name" : "cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "cpr::@3ef6d44f3d116a7ab2fc",
+					"jsonFile" : "target-cpr-Debug-94d9dc1ce5ce8ae29a5d.json",
+					"name" : "cpr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libcurl::@559fb11194f18b80a553",
+					"jsonFile" : "target-libcurl-Debug-65cb1de20edf7ab728c9.json",
+					"name" : "libcurl",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sleepy-discord::@06cd6dbeeaccc249cd17",
+					"jsonFile" : "target-sleepy-discord-Debug-7b114bf9c36362d3815e.json",
+					"name" : "sleepy-discord",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@6303ab3e0c35edac0611",
+					"jsonFile" : "target-uninstall-Debug-21be7c594dca8baccfed.json",
+					"name" : "uninstall",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)",
+		"source" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

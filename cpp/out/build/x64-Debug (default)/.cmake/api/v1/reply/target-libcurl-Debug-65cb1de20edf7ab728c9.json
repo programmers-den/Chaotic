@@ -1,0 +1,2035 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libcurl-d.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"set_target_properties",
+			"set_property",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"lib/sleepy-discord/deps/cpr/opt/curl/lib/CMakeLists.txt",
+			"lib/sleepy-discord/deps/cpr/opt/curl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS /W4 /wd4127 /MDd /Zi /Ob0 /Od /RTC1  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BUILDING_LIBCURL"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "CURL_HIDDEN_SYMBOLS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "_CRT_NONSTDC_NO_DEPRECATE"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_USRDLL"
+				},
+				{
+					"define" : "_WIN32_WINNT=0x0600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/lib/sleepy-discord/deps/cpr/opt/curl/include/curl"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/lib/sleepy-discord/deps/cpr/opt/curl/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/lib/sleepy-discord/deps/cpr/opt/curl/lib/../include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/lib/sleepy-discord/deps/cpr/opt/curl/lib/.."
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/lib/sleepy-discord/deps/cpr/opt/curl/lib/../include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/lib/sleepy-discord/deps/cpr/opt/curl/lib/.."
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/lib/sleepy-discord/deps/cpr/opt/curl/lib"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/lib/sleepy-discord/deps/cpr/opt/curl/lib"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BUILDING_LIBCURL"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "CURL_HIDDEN_SYMBOLS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "_CRT_NONSTDC_NO_DEPRECATE"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_USRDLL"
+				},
+				{
+					"define" : "_WIN32_WINNT=0x0600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/lib/sleepy-discord/deps/cpr/opt/curl/include/curl"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/lib/sleepy-discord/deps/cpr/opt/curl/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/lib/sleepy-discord/deps/cpr/opt/curl/lib/../include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/lib/sleepy-discord/deps/cpr/opt/curl/lib/.."
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/lib/sleepy-discord/deps/cpr/opt/curl/lib/../include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/lib/sleepy-discord/deps/cpr/opt/curl/lib/.."
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/lib/sleepy-discord/deps/cpr/opt/curl/lib"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/build/x64-Debug (default)/lib/sleepy-discord/deps/cpr/opt/curl/lib"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				242
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "external"
+	},
+	"id" : "libcurl::@559fb11194f18b80a553",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/User/Desktop/Bot Maker Items/Bot/PD-Chaotic/cpp/out/install/x64-Debug (default)"
+		}
+	},
+	"name" : "libcurl",
+	"nameOnDisk" : "libcurl-d.lib",
+	"paths" : 
+	{
+		"build" : "lib/sleepy-discord/deps/cpr/opt/curl/lib",
+		"source" : "lib/sleepy-discord/deps/cpr/opt/curl/lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/arpa_telnet.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/netrc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/file.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/timeval.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hostip.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/progress.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/formdata.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/cookie.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/sendf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/ftp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/url.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/dict.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/if2ip.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/speedcheck.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/urldata.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_ldap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/escape.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/telnet.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/getinfo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/strcase.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_sec.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/memdebug.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http_chunks.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_fnmatch.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/wildcard.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/fileinfo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/ftplistparser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/strtok.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/connect.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/llist.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/content_encoding.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/share.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_md4.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_md5.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http_digest.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http_negotiate.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/inet_pton.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/amigaos.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/strtoofft.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/strerror.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/inet_ntop.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curlx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_memory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_setup.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/transfer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/select.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/easyif.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/multiif.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/parsedate.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/tftp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/sockaddr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/splay.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/strdup.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/socks.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/ssh.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_base64.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_addrinfo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_sspi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/slist.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/nonblock.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_memrchr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/imap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/pop3.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/smtp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/pingpong.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/rtsp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_threads.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/warnless.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_hmac.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_rtmp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_gethostname.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/gopher.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http_proxy.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/non-ascii.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/asyn.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http_ntlm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_gssapi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_ntlm_wb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_ntlm_core.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_sasl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_multibyte.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hostcheck.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/conncache.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_setup_once.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/multihandle.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/setup-vms.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/pipeline.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/dotdot.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/x509asn1.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http2.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/sigpipe.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/smb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_endian.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_des.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_printf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/system_win32.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/rand.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/mime.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/vauth.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/digest.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/ntlm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/openssl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/vtls.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/gtls.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/nssg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/polarssl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/polarssl_threadlock.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/axtls.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/cyassl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/schannel.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/darwinssl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/gskit.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/mbedtls.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug (default)/lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/file.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/timeval.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/base64.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hostip.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/progress.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/formdata.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/cookie.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/sendf.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/ftp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/url.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/dict.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/if2ip.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/speedcheck.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/ldap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/version.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/getenv.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/escape.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/mprintf.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/telnet.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/netrc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/getinfo.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/transfer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/strcase.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/easy.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/security.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_fnmatch.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/fileinfo.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/ftplistparser.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/wildcard.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/krb5.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/memdebug.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http_chunks.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/strtok.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/connect.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/llist.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hash.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/multi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/content_encoding.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/share.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http_digest.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/md4.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/md5.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http_negotiate.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/inet_pton.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/strtoofft.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/strerror.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/amigaos.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hostasyn.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hostip4.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hostip6.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hostsyn.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/inet_ntop.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/parsedate.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/select.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/tftp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/splay.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/strdup.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/socks.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/ssh.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_addrinfo.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/socks_gssapi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/socks_sspi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_sspi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/slist.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/nonblock.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_memrchr.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/imap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/pop3.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/smtp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/pingpong.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/rtsp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_threads.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/warnless.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hmac.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_rtmp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/openldap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_gethostname.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/gopher.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/idn_win32.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http_proxy.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/non-ascii.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/asyn-ares.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/asyn-thread.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_gssapi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http_ntlm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_ntlm_wb.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_ntlm_core.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_sasl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/rand.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_multibyte.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/hostcheck.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/conncache.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/pipeline.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/dotdot.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/x509asn1.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/http2.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/smb.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_endian.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/curl_des.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/system_win32.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/mime.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/vauth.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/cleartext.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/cram.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/digest.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/digest_sspi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/krb5_gssapi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/krb5_sspi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/ntlm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/ntlm_sspi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/oauth2.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/spnego_gssapi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vauth/spnego_sspi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/openssl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/gtls.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/vtls.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/nss.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/polarssl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/polarssl_threadlock.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/axtls.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/cyassl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/schannel.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/darwinssl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/gskit.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/vtls/mbedtls.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "lib/sleepy-discord/deps/cpr/opt/curl/lib/libcurl.rc",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
