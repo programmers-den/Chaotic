@@ -9,7 +9,8 @@ For window users:
 NOTE: Windows Users MUST have cmake-gui or Visual Studio
 	User Using CMAKE-GUI:
 		Select Source As cpp/
-		Browse Build As cpp/out/build
+		Create folder cpp/build and delete cpp/out
+		Browse Build As cpp/build
 
 	User Using Visual Studio:
 		Open CMakeLists.txt and generate the confg
