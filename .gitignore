@@ -11,5 +11,5 @@ js/node_modules/
 # cpp lang file
 cpp/.vs
 cpp/lib/ #Because it's a folder
-cpp/out
-cpp/build
+cpp/out/
+cpp/build/
