@@ -6,7 +6,7 @@ For window users:
 	git clone https://github.com/yourWaifu/sleepy-discord.git
 	cd ../
 
-NOTE: Windows Users MUST have cmake-gui
+NOTE: Windows Users MUST have cmake-gui or Visual Studio
 	User Using CMAKE-GUI:
 		Select Source As cpp/
 		Browse Build As cpp/out/build
