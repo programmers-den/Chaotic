@@ -6,6 +6,6 @@ js/node_modules/
 .vscode
 
 # cpp
-cpp/lib
-cpp/out
+cpp/lib/
+cpp/out/
 cpp/.vs
