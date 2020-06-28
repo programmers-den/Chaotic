@@ -23,5 +23,7 @@ For Linux/MacOS users:
 	cd ../
 	cmake
 
+NOTE: Before building the lib, remember to install OpenSSL first!
+
 Visit https://yourwaifu.dev/sleepy-discord/setup.html for requirements of
 the lib.

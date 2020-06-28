@@ -1,6 +1,5 @@
 #include <iostream>
 #include "sleepy_discord/sleepy_discord.h"
-#include "cpr/cpr.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
