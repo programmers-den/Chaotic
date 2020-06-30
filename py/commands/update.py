@@ -5,6 +5,6 @@ async def update(ctx):
     if founder in ctx.author.roles or dev in ctx.author.roles:
         await ctx.send("Request Received, Rebooting...")
         try:
-            os.system("bash ../../stop.sh")
+            os.system("bash ../stop.sh")
         except Exception as e:
             await ctx.send("```\n{}```".format(str(e)))
