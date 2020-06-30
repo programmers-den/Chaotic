@@ -1,6 +1,6 @@
 Please create folder named "lib"
 
-For window users:
+For window users: (Install OpenSSL before build, else err)
 	mkdir lib
 	cd cpp/lib
 	git clone https://github.com/yourWaifu/sleepy-discord.git
@@ -19,9 +19,13 @@ NOTE: Windows Users MUST have cmake-gui or Visual Studio
 For Linux/MacOS users:
 	mkdir lib
 	cd cpp/lib
+	sudo apt install libssl-dev
 	git clone https://github.com/yourWaifu/sleepy-discord.git
 	cd ../
 	cmake
+
+Installing OpenSSL On Windows:
+	https://slproweb.com/download/Win64OpenSSL-1_1_1g.exe
 
 NOTE: Before building the lib, remember to install OpenSSL first!
 
