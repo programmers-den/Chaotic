@@ -1,6 +1,4 @@
 @bot.command()
 async def say(ctx, *, args=None):
-    if args == None:
-        pass
-    else:
-        ctx.send(args)
+    if args: ctx.send(args)
+    else: ctx.send("Please supply something to say!")
