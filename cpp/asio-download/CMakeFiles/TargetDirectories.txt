@@ -1,0 +1,3 @@
+/home/pi/Chaotic/cpp/asio-download/CMakeFiles/rebuild_cache.dir
+/home/pi/Chaotic/cpp/asio-download/CMakeFiles/asio-download.dir
+/home/pi/Chaotic/cpp/asio-download/CMakeFiles/edit_cache.dir

@@ -76,8 +76,7 @@ client.on 'message', (message) ->
     cmds = ""
     for cmd in pycmds
       cmds = "#{cmds}#{cmd}: #{pycmds[cmd].description}"
-    for cmd in client.commands
-      console.log 
+    message.channel.send "Python commands: #{cmds}"
 
   client.commands.get('test').execute(message, args) if command == 'test' # todo: automate with for loop
 
