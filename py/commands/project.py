@@ -5,4 +5,4 @@ async def info(ctx):
     embed.add_field(name="Version", value="0.1.0")
     embed.add_field(name="Release Date", value="06/24/2020")
     embed.add_field(name="Github", value="https://github.com/Programmer-s-Organization/Chaotic")
-    
+    await ctx.send(embed=embed)
