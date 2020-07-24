@@ -1,6 +1,6 @@
 Message:1
 If you made changes in codes, please update the bot version.
-Goto py/commands/info.py and over write the  line 6: 'embed.add_field(name="Version", value="0.1.0")'
+Goto py/commands/info.py and over write the value in line 6: 'embed.add_field(name="Version", value="0.1.0")'
 Thankyou! :)
 
 	Author: Pichu#0357 
