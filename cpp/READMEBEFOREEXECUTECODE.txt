@@ -19,10 +19,13 @@ NOTE: Windows Users MUST have cmake-gui or Visual Studio
 For Linux/MacOS users:
 	mkdir lib
 	cd cpp/lib
-	sudo apt install libssl-dev
+	sudo apt install libssl-dev libcurl-dev
 	git clone https://github.com/yourWaifu/sleepy-discord.git
 	cd ../
 	cmake
+OR:
+	sudo chmod +x setup.sh
+	./setup.sh
 
 Installing OpenSSL On Windows:
 	https://slproweb.com/download/Win64OpenSSL-1_1_1g.exe

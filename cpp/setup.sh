@@ -1,5 +1,5 @@
 #!/bin/bash
-bash -c "sudo apt install libcurl-dev openssl-dev"
+bash -c "sudo apt install libcurl-dev openssl-dev cmake"
 bash -c "cd lib"
 if [[ -f sleepy-discord ]]
 then
