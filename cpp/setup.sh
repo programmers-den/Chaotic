@@ -8,4 +8,4 @@ then
 fi
 
 bash -c "cd .."
-bash -c "cmake"
+bash -c "cmake out/build/"
