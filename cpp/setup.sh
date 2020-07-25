@@ -8,4 +8,4 @@ then
 fi
 
 cd ..
-cmake
+cmake out/build/
