@@ -7,5 +7,5 @@ then
     git clone https://github.com/yourWaifu/sleepy-discord.git
 fi
 
-bash -c "cd .."
-bash -c "cmake out/build/"
+cd ..
+cmake out/build/
