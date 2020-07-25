@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 sudo apt install libcurl-dev openssl-dev cmake
 cd lib
 if [[ -f sleepy-discord ]]
