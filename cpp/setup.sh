@@ -1,10 +1,10 @@
-#!/bin/bash
-bash -c "sudo apt install libcurl-dev openssl-dev cmake"
-bash -c "cd lib"
+#!/bin/sh
+sudo apt install libcurl-dev openssl-dev cmake
+cd lib
 if [[ -f sleepy-discord ]]
 then
-    bash -c "rm -rf sleepy-discord"
-    bash -c "git clone https://github.com/yourWaifu/sleepy-discord.git"
+    rm -rf sleepy-discord
+    git clone https://github.com/yourWaifu/sleepy-discord.git
 fi
 
 bash -c "cd .."
