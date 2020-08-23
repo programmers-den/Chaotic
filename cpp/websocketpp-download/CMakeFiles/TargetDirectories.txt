@@ -1,3 +1,0 @@
-/home/pi/Chaotic/cpp/websocketpp-download/CMakeFiles/rebuild_cache.dir
-/home/pi/Chaotic/cpp/websocketpp-download/CMakeFiles/websocketpp-download.dir
-/home/pi/Chaotic/cpp/websocketpp-download/CMakeFiles/edit_cache.dir
