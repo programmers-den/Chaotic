@@ -47,11 +47,10 @@ async def connect():
 @bot.listen()
 async def on_ready():
     print("PY: Ready!")
-
-for command in os.listdir("commands"):
-    if command.endswith(".py"):
-        with open(f"commands/{command}") as f:
-            exec(f.read())
+    for command in os.listdir("commands"):
+        if command.endswith(".py"):
+            with open(f"commands/{command}") as f:
+                exec(f.read())
 
 Thread(target=exec, args=["asyncio.run(connect())", globals()]).start()
 
