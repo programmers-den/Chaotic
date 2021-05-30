@@ -6,7 +6,7 @@
   "dependencies": {
     "coffeescript": "^2.5.1",
     "discord.js": "^12.2.0",
-    "ws": "^7.3.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {},
   "scripts": {
